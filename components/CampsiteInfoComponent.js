@@ -5,9 +5,7 @@ import { COMMENTS } from '../shared/comments';
 import { CAMPSITES } from '../shared/campsites';
 
 function RenderCampsite(props) {
-
     const {campsite} = props;
-
     if (campsite) {
         return (
             <Card
@@ -51,7 +49,6 @@ function RenderComments({comments}){
         </Card>
     );
 }
-
 
 class CampsiteInfo extends Component {
     constructor(props) {
