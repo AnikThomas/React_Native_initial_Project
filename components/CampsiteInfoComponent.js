@@ -132,7 +132,7 @@ class CampsiteInfo extends Component {
                         visible={this.state.showModal}
                         onRequestClose={() => this.toggleModal()}>
                     
-                        <View styles={styles.modal}>
+                        <View style={styles.modal}>
                             <Rating
                                 showRating
                                 startingValue={5}
